@@ -1,0 +1,14 @@
+{
+  "name": "clashpulse-official-discord-bot",
+  "version": "2.0.0",
+  "description": "Official-style Clash of Clans Slash-Command Discord & WhatsApp Bot (like ClashPerk / ClashKing)",
+  "main": "bot.js",
+  "scripts": {
+    "deploy-commands": "node deploy-commands.js",
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  }
+}
